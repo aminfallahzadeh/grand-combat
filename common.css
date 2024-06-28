@@ -30,7 +30,6 @@ body {
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
-
   background-color: var(--color-bg-primary);
 }
 
@@ -100,6 +99,7 @@ li {
 
 p {
   color: var(--color-txt-primary);
+  margin-bottom: 0 !important;
 }
 
 label {

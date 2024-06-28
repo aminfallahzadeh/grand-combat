@@ -1,0 +1,123 @@
+.friends-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.friends-coins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+
+.friends-coins img {
+  width: 70px;
+}
+
+.friends-coins h1 {
+  text-align: center;
+}
+
+.bonus-btn {
+  background: #466fb9;
+  background: -webkit-linear-gradient(50deg, #466fb9 0%, #6f9ce8 100%);
+  background: linear-gradient(50deg, #466fb9 0%, #6f9ce8 100%);
+
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: var(--color-txt-primary);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  column-gap: 10px;
+}
+
+.friends-item {
+  width: 100%;
+  background-color: var(--color-skill-bar-bg);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.glow {
+  filter: drop-shadow(0 0 10px var(--color-shadow));
+}
+
+.friends-item-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.friends-item-title img {
+  width: 40px;
+}
+
+.friends-text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.friends-text h3 {
+  color: #fff;
+  font-size: 12px;
+}
+
+.friends-text p {
+  font-size: 10px;
+}
+
+.friends-item-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.friends-item-amount img {
+  width: 20px;
+}
+
+.friends-item-amount h3 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.more-bonus-btn {
+  background: transparent;
+  border-radius: 30px;
+  border: 1px solid var(--color-vertical-line);
+
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.friend-list-title {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+.friend-list-item {
+  display: grid;
+}
+
+.friend-list-item h3 {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
