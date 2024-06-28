@@ -65,6 +65,12 @@ a:hover {
   }
 }
 
+@media (max-height: 720px) {
+  .blue-background {
+    top: 50px;
+  }
+}
+
 h1 {
   color: var(--color-txt-primary);
   text-transform: uppercase;

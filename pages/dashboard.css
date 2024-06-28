@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-height: 720px) {
+  .profile {
+    padding: 5px 10px 0 10px;
+  }
+}
+
 .profile-info {
   display: flex;
   align-items: center;
