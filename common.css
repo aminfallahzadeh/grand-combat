@@ -32,13 +32,10 @@ body {
   -ms-text-size-adjust: none;
 
   background-color: var(--color-bg-primary);
-  position: relative;
-  height: 100vh;
 }
 
 main {
   position: relative;
-  height: 100%;
 }
 
 a {

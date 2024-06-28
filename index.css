@@ -36,6 +36,10 @@
   row-gap: 15px;
 }
 
+.content-header p {
+  text-align: center;
+}
+
 .content-options {
   display: flex;
   flex-direction: column;

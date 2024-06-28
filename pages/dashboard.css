@@ -14,20 +14,12 @@
 .profile {
   display: flex;
   justify-content: space-between;
+  column-gap: 100px;
   align-items: center;
-  padding: 60px 10px 0 10px;
-}
-
-@media (max-height: 850px) {
-  .profile {
-    padding: 20px 10px 0 10px;
-  }
-}
-
-@media (max-height: 720px) {
-  .profile {
-    padding: 5px 10px 0 10px;
-  }
+  position: absolute;
+  top: -8%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .profile-info {
@@ -58,6 +50,7 @@
 
 .profile-select-title {
   text-transform: uppercase;
+  font-size: 13px;
 }
 
 @media (max-width: 350px) {
