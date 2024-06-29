@@ -598,3 +598,31 @@
   color: #fff;
   font-size: 18px;
 }
+
+#tap-effect {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  perspective: 1000px;
+}
+
+.plus-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: var(--color-active-link);
+  opacity: 1;
+  animation: moveUpFadeOut 1s ease-out forwards;
+}
+
+@keyframes moveUpFadeOut {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -250%);
+    opacity: 0;
+  }
+}
