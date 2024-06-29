@@ -28,6 +28,10 @@
 
 .mine-nav-item {
   color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 2px 10px;
 }
 
 .active-mine {
@@ -36,7 +40,31 @@
   padding: 2px 10px;
 }
 
-.mine-card-list {
+.mine-card-list-legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 5px;
+  border-radius: 30px;
+  padding: 15px;
+  overflow-y: scroll;
+  margin-bottom: 45px;
+}
+
+.mine-card-list-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 5px;
+  border-radius: 30px;
+  padding: 15px;
+  overflow-y: scroll;
+  margin-bottom: 45px;
+}
+
+.mine-card-list-special {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -93,4 +121,8 @@
 .mine-card-price span {
   color: #fff;
   font-size: 12px;
+}
+
+.hidden {
+  display: none;
 }
