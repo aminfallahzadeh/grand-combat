@@ -1,0 +1,97 @@
+.mine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding: 20px;
+  height: 100%;
+}
+
+.mine-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-primary);
+  column-gap: 5px;
+  border-radius: 100px;
+}
+
+.mine-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 5px 20px;
+}
+
+.mine-nav-item {
+  color: #fff;
+}
+
+.active-mine {
+  background-color: var(--color-skill-bar-bg);
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+
+.mine-card-list {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  border-radius: 30px;
+  padding: 15px;
+  overflow-y: scroll;
+  margin-bottom: 45px;
+}
+
+.mine-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 10px;
+  background-color: var(--color-bg-primary);
+  border-radius: 20px;
+  border: 1px solid var(--color-blue-border);
+  -webkit-box-shadow: 1px 1px 32px -5.5px #6098e0;
+  -moz-box-shadow: 1px 1px 32px -5.5px #6098e0;
+  box-shadow: 1px 1px 32px -5.5px #6098e0;
+}
+
+.mine-card-img {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.mine-card-title {
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+}
+.mine-card-desc {
+  color: #fff;
+  text-align: left;
+  font-size: 12px;
+}
+
+.mine-card-price {
+  display: fex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.mine-card-price img {
+  width: 20px;
+}
+
+.mine-card-price span {
+  color: #fff;
+  font-size: 14px;
+}

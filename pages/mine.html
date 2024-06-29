@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="../common.css" rel="stylesheet">
     <link href="dashboard.css" rel="stylesheet">
-    <link href="friends.css" rel="stylesheet">
+    <link href="mine.css" rel="stylesheet">
 </head>
 
 <body>
@@ -172,66 +172,90 @@
     </div>
 
     <main class="blue-background">
+        <div class="mine-container">
 
-        <div class="friends-content">
-
-            <div class="friends-coins">
-                <img src="../img/coin.png" alt="Coin" />
-                <h1>100k</h1>
+            <div class="mine-nav">
+                <ul class="mine-nav-list">
+                    <li class="mine-nav-item active-mine">Legal</li>
+                    <li class="mine-nav-item">Team</li>
+                    <li class="mine-nav-item">Special</li>
+                </ul>
             </div>
 
-            <button class="bonus-btn">
-                Claim Bonus
-            </button>
+            <div class="mine-card-list">
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
 
-            <h1>Invite your friends</h1>
-            <p>And get bonuses together!</p>
-
-            <div class="friends-item">
-                <div class="friends-item-title">
-                    <img src="../img/tap.png" alt="Earn Money" class="glow" />
-
-                    <div class="friends-text">
-                        <h3>INVITE A FRIEND</h3>
-                        <p>and get your bonuses together</p>
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
                     </div>
                 </div>
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
 
-                <div class="friends-item-amount">
-                    <img src="../img/coin.png" alt="Coin" />
-                    <h3>+1000</h3>
-                </div>
-            </div>
-
-            <div class="friends-item">
-                <div class="friends-item-title">
-                    <img src="../img/tap.png" alt="Earn Money" class="glow" />
-
-                    <div class="friends-text">
-                        <h3>INVITE A FRIEND WITH TELEGRAM PREMIUM</h3>
-                        <p>and get your bonuses together</p>
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
                     </div>
                 </div>
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
 
-                <div class="friends-item-amount">
-                    <img src="../img/coin.png" alt="Coin" />
-                    <h3>+5000</h3>
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
+                    </div>
+                </div>
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
+
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
+                    </div>
+                </div>
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
+
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
+                    </div>
+                </div>
+                <div class="mine-card">
+                    <img src="../img/card-img.jpg" alt="Card" class="mine-card-img" />
+                    <div>
+                        <h5 class="mine-card-title">HASMTER KOMBAT CARD</h5>
+                        <p class="mine-card-desc">profit per hour: 1.25k</p>
+                    </div>
+
+                    <div class="mine-card-price">
+                        <img src="../img/coin.png" alt="coin" />
+                        <span>15k</span>
+                    </div>
                 </div>
             </div>
-
-            <button class="more-bonus-btn">
-                More bonuses
-                <i class="bi bi-caret-down"></i>
-            </button>
-
-
-            <h4 class="friend-list-title">Your friend list <span>(0)</span></h4>
-
-            <div class="friend-list-item">
-                <h3>List IS EMPTY</h3>
-            </div>
-
-
         </div>
 
 
@@ -248,13 +272,13 @@
             </li>
 
             <li class="footer-item">
-                <a href="mine.html" class="footer-item-link">
+                <a href="#" class="footer-item-link active">
                     <i class="bi bi-wallet-fill"></i>
                     <h5 class="footer-item-title">&nbsp;Mine&nbsp;</h5>
                 </a>
             </li>
             <li class="footer-item">
-                <a href="#" class="footer-item-link active">
+                <a href="friends.html" class="footer-item-link">
                     <i class="bi bi-people-fill"></i>
                     <h5 class="footer-item-title">Friends</h5>
                 </a>
